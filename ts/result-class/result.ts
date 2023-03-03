@@ -1,5 +1,3 @@
-// export type Option<T> = T | null
-
 export type Result<T, E> = Ok<T> | Err<E>;
 export type Existing<T> = T extends null | undefined | void
   //   | unknown
